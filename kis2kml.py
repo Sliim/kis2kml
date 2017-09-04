@@ -664,20 +664,12 @@ def append_kml_styles(kmllist, netlist):
         kmllist.append('\t\t\t<IconStyle>')
         kmllist.append('\t\t\t\t<color>ff%s</color>' % netcolours[e])
         kmllist.append('\t\t\t\t<scale>1</scale>')
-        kmllist.append('\t\t\t\t<Icon>')
-        kmllist.append('\t\t\t\t\t<href>'
-            'http://maps.google.com/mapfiles/kml/shapes/target.png</href>')
-        kmllist.append('\t\t\t\t</Icon>')
         kmllist.append('\t\t\t</IconStyle>')
         kmllist.append('\t\t</Style>')
         kmllist.append('\t\t<Style id="%s cloaked">' % e)
         kmllist.append('\t\t\t<IconStyle>')
         kmllist.append('\t\t\t\t<color>7f%s</color>' % netcolours[e])
         kmllist.append('\t\t\t\t<scale>1</scale>')
-        kmllist.append('\t\t\t\t<Icon>')
-        kmllist.append('\t\t\t\t\t<href>'
-            'http://maps.google.com/mapfiles/kml/shapes/target.png</href>')
-        kmllist.append('\t\t\t\t</Icon>')
         kmllist.append('\t\t\t</IconStyle>')
         kmllist.append('\t\t</Style>')
 
